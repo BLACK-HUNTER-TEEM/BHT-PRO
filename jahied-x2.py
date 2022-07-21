@@ -139,7 +139,7 @@ class Main:
 			 stat = ("\033[0;97mPREMIUM")
 				
 				
-				GET = '\r'
+				
 			else:
 				key = ("\033[0;97m -")
 				stat = ("\033[0;97mPAID USER")
