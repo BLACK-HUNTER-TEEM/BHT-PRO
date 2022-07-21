@@ -98,7 +98,7 @@ def helpnote():
 	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
 	#yahan nichy httsp sy hata kr apna github aproval link dalna
 	r1=requests.get("https://github.com/BLACK-HUNTER-TEEM/python jahied-x2.py/main/approval.txt")
-	if key1 in r1:
+	key1 in r1:
     #yahan apni facebook id link dalna
 	exit(" [=>] FACEBOOK :  https://www.facebook.com/ROOT.OFF.JAHIED"
 
