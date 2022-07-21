@@ -138,7 +138,7 @@ class Main:
 			if key1 in r1:
 			 stat = ("\033[0;97mPREMIUM")
 				
-				FG = '\033[0;97m'
+				
 				GET = '\r'
 			else:
 				key = ("\033[0;97m -")
