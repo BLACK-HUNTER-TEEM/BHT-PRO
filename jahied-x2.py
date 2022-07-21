@@ -97,7 +97,7 @@ os.system('termux-setup-storage')
 def helpnote():
 	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
 	#yahan nichy httsp sy hata kr apna github aproval link dalna
-	r1=requests.get("https://raw.githubusercontent.com/BLACK-HUNTER-TEEM/BHT-PRO-v2/main/approval.txt"])
+	r1=requests.get("https://github.com/BLACK-HUNTER-TEEM/BHT-PRO-v2/main/approval.txt"])
 	if key1 in r1:
     #yahan apni facebook id link dalna
 	exit(" [=>] FACEBOOK :  https://www.facebook.com/ROOT.OFF.JAHIED")
@@ -134,7 +134,7 @@ class Main:
 		self.loop = 0
 		try:
 			#yahan pr v apna github link dalna aproval wala
-			r1=requests.get('https://raw.githubusercontent.com/BLACK-HUNTER-TEEM/BHT-PRO-v2/main/approval.txt').text
+			r1=requests.get('https://github.com/BLACK-HUNTER-TEEM/BHT-PRO-v2/main/approval.txt').text
 			if key1 in r1:
 			 stat = ("\033[0;97mPREMIUM")
 				FY = '\033[0;97m'
