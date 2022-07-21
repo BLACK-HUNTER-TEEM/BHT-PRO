@@ -73,7 +73,7 @@ def logo2():
 \t\033[1;97m[\x1b[1;97m\x1b[1;41m Version :3.1\x1b[0m\x1b[1;97m] \033[1;37m 
  ───────────────────────────────────────────────────────×
 \t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : BD-JAHIED \x1b[0m\x1b[1;97m]
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/jahied \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/BLACK-HUNTER-TEAM\x1b[0m\x1b[1;97m]
 \t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook./ROOT.OFF.JAHIED \x1b[0m\x1b[1;97m]
 ───────────────────────────────────────────────────────× 
  """)
@@ -89,7 +89,7 @@ os.system('termux-setup-storage')
 def helpnote():
 	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
 	#yahan nichy httsp sy hata kr apna github aproval link dalna
-	subprocess.check_output(["am", "start", "https://github.com/BLACK-HUNTER-TEEM/approval.txt/main/Apro.txt"])
+	subprocess.check_output(["am", "start", "https://github.com/BLACK-HUNTER-TEEM/BHT-PRO-v2/main/approval.txt"])
 	#yahan apni facebook id link dalna
 	exit(" [=>] FACEBOOK :  https://www.facebook.com/ROOT.OFF.JAHIED")
 
@@ -125,7 +125,7 @@ class Main:
 		self.loop = 0
 		try:
 			#yahan pr v apna github link dalna aproval wala
-			plr = requests.get('https://github.com/BLACK-HUNTER-TEEM/approval.txt/main/Apro.txt').text
+			plr = requests.get('https://github.com/BLACK-HUNTER-TEEM/BHT-PRO-v2/main/approval.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;97mPREMIUM")
@@ -163,7 +163,7 @@ class Main:
 \t\033[1;97m[\x1b[1;97m\x1b[1;41m Version : 3.1\x1b[0m\x1b[1;97m] \033[1;37m 
  ───────────────────────────────────────────────────────×
 \t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : BD-JAHIED \x1b[0m\x1b[1;97m]
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/jahied \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/BLACK-HUNTER-TEAM \x1b[0m\x1b[1;97m]
 \t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook.ROOT.OFF.JAHIED \x1b[0m\x1b[1;97m]
 ───────────────────────────────────────────────────────× 
     """)
@@ -425,7 +425,7 @@ if len(sys.argv) == 2:
 		print(" [*] Facebook  : https://facebook.com/ROOT.OFF.JAHIED")
 		print(" [*] Instagram : --/n")
 		print(" [*] Facebook  : https://facebook.com/ROOT.OFF.JAHIED")
-		exit(" [*] GitHub    : https://github.com/jahied ")
+		exit(" [*] GitHub    : https://github.com/BLACK-HUNTER-TEEM")
 	else:
 		Main()
 
