@@ -100,7 +100,7 @@ def helpnote():
 	r1=requests.get("https://github.com/BLACK-HUNTER-TEEM/python jahied-x2.py/main/approval.txt")
 	
     #yahan apni facebook id link dalna
-	exit(" [=>] FACEBOOK :  https://www.facebook.com/ROOT.OFF.JAHIED"
+	exit(" [=>] FACEBOOK :  https://www.facebook.com/ROOT.OFF.JAHIED")
 
 
 def notice():
