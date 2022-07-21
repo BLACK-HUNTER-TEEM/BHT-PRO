@@ -135,7 +135,7 @@ class Main:
 		try:
 			#yahan pr v apna github link dalna aproval wala
 			r1=requests.get('https://github.com/BLACK-HUNTER-TEEM/BHT-PRO-v2/main/approval.txt').text
-			if key1 in r1:
+			if keyr1 in r1:
 			 stat = ("\033[0;97mPREMIUM")
 				
 				
